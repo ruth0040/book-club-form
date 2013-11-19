@@ -3,3 +3,34 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  background: #42240c;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+
+  font-size: 6em;
+  color: #e3d2c8;
+  background: #42240c;
+  text-align: center;
+  margin-top: -10%;
+}
