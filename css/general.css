@@ -34,3 +34,54 @@ h1 {
   text-align: center;
   margin-top: -10%;
 }
+
+
+/* form items */
+
+form {
+  padding: 2%;
+  margin: 2% 25%;
+  background-color: #e3d2c8;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input,
+textarea {
+    font-size: 1rem;
+}
+
+.input-text {
+  padding: 0.5em, 0.5em;
+
+  width: 100%;
+
+  background-image: linear-gradient(to bottom, #efefef, #fff);
+  border: 1px solid #ccc;
+}
+
+input + label {
+  display: inline-block;
+}
+
+button {
+  padding: 1em;
+  font-size: 1.125rem;
+  border: 2px solid #00f;
+  background-image: linear-gradient(to bottom, #00F, #66e);
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.error {
+  display: block;
+  color: #f33;
+}
+
+.input-error {
+  border: 3px solid #f33;
+}
