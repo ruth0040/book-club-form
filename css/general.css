@@ -241,7 +241,8 @@ legend {
 
 input,
 textarea,
-select {
+select,
+input + label {
   font-size: 2em;
   margin-bottom: 2%;
 }
