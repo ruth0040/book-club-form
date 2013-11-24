@@ -12,6 +12,7 @@
 
 html {
   background: #42240c;
+  font-size: 100%;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
 
 header {
   width: 100%;
+  margin-bottom: 2%;
 }
 
 img {
@@ -28,30 +30,45 @@ img {
 
 h1 {
 
-  font-size: 6em;
+  font-size: 2.25em;
   color: #e3d2c8;
   background: #42240c;
   text-align: center;
-  margin-top: -10%;
+  margin-top: -15%;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #42240c;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.25em;
+  color: #42240c;
 }
 
 
 /* form items */
 
 form {
-  padding: 2%;
-  margin: 2% 25%;
+  padding: .5% 2%;
+  margin: 10% 3%;
   background-color: #e3d2c8;
 }
 
-label {
+label,
+legend {
   display: block;
   cursor: pointer;
+  font-size: 1.25em;
 }
 
 input,
-textarea {
-    font-size: 1rem;
+textarea,
+select {
+  font-size: 1em;
+  margin-bottom: 1.2%;
 }
 
 .input-text {
@@ -65,23 +82,89 @@ textarea {
 
 input + label {
   display: inline-block;
+  font-size: 1em;
+
 }
 
 button {
+  margin: 2% 0%;
   padding: 1em;
   font-size: 1.125rem;
-  border: 2px solid #00f;
-  background-image: linear-gradient(to bottom, #00F, #66e);
+  border: 2px solid #42240c;
+  background-image: linear-gradient(to bottom, #42240c, #e3d2c8);
   color: #fff;
   border-radius: 8px;
   cursor: pointer;
 }
 
 .error {
-  display: block;
+  display: inline-block;
+  padding-left: 2%;
   color: #f33;
+  font-size: .8em;
 }
 
-.input-error {
-  border: 3px solid #f33;
+
+/* Media Queries */
+@media only screen and (min-width: 25em) {
+
+h1 {
+
+  font-size: 6em;
+  margin-top: -10%;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+label,
+legend {
+  font-size: 1.5em;
+}
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+h1 {
+
+  font-size: 6em;
+  margin-top: -10%;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+label,
+legend {
+  font-size: 1.5em;
+}
+
+form {
+  padding: .5% 2%;
+  margin: 2% 20%;
+  background-color: #e3d2c8;
+}
+
+}
+
+@media only screen and (min-width: 80em) {
+
+form {
+  padding: .5% 2%;
+  margin: 2% 20%;
+  background-color: #e3d2c8;
+}
+
 }

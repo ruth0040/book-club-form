@@ -16,25 +16,21 @@
         <h1>Twilight lovers book club</h1>
   </header>
 
-<!--
-How much do you love this genre? (group of 5 radio buttons) -->
-
-
   <form>
     <h2>Sign up now!</h2>
 
-    <h3>Give us your information!</h3>
+    <h3>Give us your information.</h3>
 
     <div>
       <label for="name">Name
         <strong class="error">Please enter your name</strong>
       </label>
-      <input type="text" id="name" class="input-text input-error" required>
+      <input type="text" id="name" class="input-text" required>
     </div>
 
     <div>
-      <label for="email">E-mail address</label>
-      <input type="email" id="email" class="input-text" placeholder="you@email.com" required maxlength="256">
+      <label for="email">E-mail address<strong class="error">Invalid email</strong>  </label>
+      <input type="email" id="email" class="input-text" placeholder=" you@email.com" required maxlength="256">
     </div>
 
     <div>
@@ -82,7 +78,7 @@ How much do you love this genre? (group of 5 radio buttons) -->
       <input type="time" id="time" required>
     </div>
 
-    <h3>Tell us about your love for Twilight</h3>
+    <h3>Tell us about your love for Twilight.</h3>
 
 
     <div>
@@ -96,23 +92,26 @@ How much do you love this genre? (group of 5 radio buttons) -->
     </div>
 
     <fieldset>
-    <legend>How much do you love Twilight?</legend>
-      <input type="radio" id="ok" name="love-twilight">
-      <label for"ok">It's okay.</label>
+      <legend>How much do you love Twilight?</legend>
+        <input type="radio" id="ok" name="love-twilight">
+        <label for"ok">It's okay.</label>
 
-      <input type="radio" id="like" name="love-twilight">
-      <label for"like">I like it.</label>
+        <input type="radio" id="like" name="love-twilight">
+        <label for"like">I like it.</label>
 
-      <input type="radio" id="love" name="love-twilight">
-      <label for"love">I love Twilight!</label>
+        <input type="radio" id="love" name="love-twilight">
+        <label for"love">I love Twilight!</label>
 
-      <input type="radio" id="really-love" name="love-twilight">
-      <label for"really-love">I love, love, LOVE it!</label>
+        <input type="radio" id="really-love" name="love-twilight">
+        <label for"really-love">I love, love, LOVE it!</label>
 
-      <input type="radio" id="crazy-love" name="love-twilight">
-      <label for"crazy-love">I could not exists anymore if there was no Twilight.</label>
+        <br>
+        <input type="radio" id="crazy-love" name="love-twilight">
+        <label for"crazy-love">I could not exist anymore if they abolished Twilight.</label>
 
-  </fieldset>
+    </fieldset>
+
+    <button type="submit">Submit</button>
 
 
 
