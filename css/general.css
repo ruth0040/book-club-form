@@ -217,8 +217,35 @@ form {
 
 form {
   padding: .5% 2%;
-  margin: 2% 20%;
+  margin: 2% 25%;
   background-color: #e3d2c8;
 }
+
+h1 {
+
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+label,
+legend {
+  font-size: 2.5em;
+}
+
+input,
+textarea,
+select {
+  font-size: 2em;
+  margin-bottom: 2%;
+}
+
+
 
 }
