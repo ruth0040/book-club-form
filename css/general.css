@@ -247,6 +247,12 @@ input + label {
   margin-bottom: 2%;
 }
 
+button {
+  margin: 2% 0%;
+  padding: 2em;
+  font-size: 2.5rem;
+}
+
 
 
 }
