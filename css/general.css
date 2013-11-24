@@ -34,7 +34,7 @@ h1 {
   color: #e3d2c8;
   background: #42240c;
   text-align: center;
-  margin-top: -15%;
+  padding: 3% 2%;
 }
 
 h2 {
@@ -53,7 +53,7 @@ h3 {
 
 form {
   padding: .5% 2%;
-  margin: 10% 3%;
+  margin: 4% 3%;
   background-color: #e3d2c8;
 }
 
@@ -110,12 +110,11 @@ button {
 
 h1 {
 
-  font-size: 6em;
-  margin-top: -10%;
+  font-size: 2.5em;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 h3 {
@@ -127,6 +126,62 @@ legend {
   font-size: 1.5em;
 }
 
+form {
+  margin: 4% 3%;
+}
+
+}
+
+@media only screen and (min-width: 30em) {
+
+h1 {
+
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+label,
+legend {
+  font-size: 1.5em;
+}
+
+form {
+  margin: 4% 3%;
+}
+
+}
+
+@media only screen and (min-width: 42em) {
+
+h1 {
+
+  font-size: 4.5em;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+label,
+legend {
+  font-size: 1.5em;
+}
+
+form {
+  margin: 2% 3%;
+}
+
 
 }
 
@@ -134,8 +189,7 @@ legend {
 
 h1 {
 
-  font-size: 6em;
-  margin-top: -10%;
+  font-size: 4em;
 }
 
 h2 {
